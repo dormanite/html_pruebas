@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="description" content="Página de prácticas masterD" />
+<meta name="robots" content="NOFOLLOW" />
+<meta name="Author" content="Isolda" />
+<meta name="keywords" content="Demo,Prueba,Práctica4" />
+<meta name="lang" content="es" />
+<meta name="revisit-after" content="2 days" />
+<meta name="category" content="Prácticas" />
+<!-- Declaración de fichero de estilos -->
+<link rel="stylesheet" href="../estilos/estilos.css">
+<link rel="stylesheet" href="../estilos/responsive.css">
+
+<title>Práctica 4 - Sitio Web</title>
+
+</head>
+<body>
+    <div class="div_contenedor">
+        <header>
+            <div id="div_header">
+                <img src="../img/Cabecera.png" id="img-header" alt="Imagen de Cabecera" title="Imagen de cabecera">
+            </div>
+            <nav>
+                <!--Div que contiene el menú-->
+                <div class="div_menu">
+                    
+                    <span class="botonin">
+                        <a href="../index.html" class="div_menu">Índice</a>
+                    </span>
+
+                    <span class="botonin">
+                        <a href="enlace1.html" class="div_menu">Noticias</a>
+                    </span>
+
+                    <span class="botonin">
+                        <a href="enlace2.html" class="div_menu">Enlaces</a>
+                    </span>
+
+                    <span class="botonin"> 
+                        <a href="enlace3.html" class="div_menu">Galería</a>
+                    </span>
+
+                    <span class="botonin">
+                        <a href="enlace4.html" class="div_menu">Registro</a>
+                    </span>
+
+                </div>
+            </nav>
+        </header>
+
+        <!--MAIN-->
+        <div id="div_formulario">
+            <header>
+                <div id=""><h1>Formulario</h1></div>
+            </header>
+            <span><img id="imagen_long" src="../img/logo-exitae-long.jpg"></span>
+            <div class="formulario">
+                <header><h2>RELLENA LOS SIGUIENTES CAMPOS:</h2></header>
+                <form id="myForm" name="myForm" action="#" method="get" target="_self">
+                    <ul class="caja_gris ">
+                        <li>
+                            <label for="nombre">Nombre:</label>
+                            <input class="input-large" type="text" id="nombre" name="nombre" placeholder="Nombre  (requerido)" pattern="[A-Z a-z] {3,15}" title="Escriba solo letras entre 3 y 15 caracteres" required>
+                        </li>
+                        <li>
+                            <label for="direccion">Dirección:</label>
+                            <input class="input-large" type="text" id="direccion" name="direccion" placeholder="Dirección  (requerida)" pattern="[A-Z a-z 0-9]" title="Escriba su direccion completa" required>
+                        </li>
+                        <li>
+                            <label id="line_height" for="telefono" >Teléfono de contacto:</label>
+                            <input class="input-medium help" type="tel" id="telefono" name="telefono" placeholder="Teléfono  (requerido)" pattern="[0-9] {9}" title="Escriba los 9 números de su teléfono movil" required>
+                        </li>
+                        <li>
+                            <label for="edad">Edad:</label>
+                            <input class="input-short" type="number" id="edad" name="edad" placeholder="Edad (requerida)" title="Escriba su edad" required>
+                        </li>
+                        <li>
+                            <label for="email">E-mail:</label>
+                            <input class="input-large" type="email" id="email" name="email" placeholder="Dirección@correo.com (requerido)" title="Escriba su correo electrónico" required>
+                        </li>
+                        <li class="boton_form">
+                            <button class="morado" type="reset">Borrar el formulario</button>
+                            <button class="morado" type="submit">Enviar el formulario</button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+        
+        <!--FOOTER-->
+        <footer>
+            <div id="div_footer">
+                ::Exitae :: Práctica HTML y CSS :: Todos los derechos reservados ::
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

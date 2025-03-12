@@ -1,0 +1,57 @@
+
+/* Declaración de codificación de caracteres */
+@charset "utf-8";
+/* Inicio del Documento CSS */
+
+/* Importación de Google Font "Open Sans" */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;1,200&display=swap');
+
+
+html, body {
+    margin:0 auto;
+    padding:0px;
+    width:980px;
+    font-size:13px;
+    color:#3c3c3c;
+    font-family: Helvetica, sans-serif;
+    background:url(../img/Cabecera.jpg) no-repeat fixed center top;
+    background-size:100% auto;
+    line-height:18px;
+}
+.div_contenedor{
+	position:relative;
+	clear:both;
+}
+header{
+    border:solid;
+	border-width:10px;
+	border-color:transparent;
+}
+
+#div_header{
+	clear:both;
+	box-sizing:border-box;
+	background: linear-gradient(to right, white, #7abcff);
+	position:relative;
+    width:100%;
+	height:196px;
+	border: 1px solid black;
+    
+}
+
+#div_header h1{
+	font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 4.9em;
+    
+    
+    color: #4096ee;
+    text-align: left;
+    padding-left: 6%;
+    margin-top: 70px;
+    
+}
